@@ -31,7 +31,7 @@
     mailPassword        - passworf of the used user to send the mail
     mailFromAddress     - sender address
     -->
-    <server serverAddress="54.218.39.90"
+    <server serverAddress="ec2-54-218-39-90.us-west-2.compute.amazonaws.com"
             serverName="mage-server"
             port="42171"
             secondaryBindPort="42000"
