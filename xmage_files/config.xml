@@ -59,9 +59,9 @@
             mailFromAddress=""
     />
     <playerTypes>
-        <playerType name="Human" jar="mage-player-human-1.4.15.jar" className="mage.player.human.HumanPlayer"/>
+        <playerType name="Human" jar="mage-player-human-1.4.17.jar" className="mage.player.human.HumanPlayer"/>
 <!--        <playerType name="Computer - mad" jar="mage-player-ai-ma-1.4.15.jar" className="mage.player.ai.ComputerPlayer7"/>-->
-        <playerType name="Computer - draftbot" jar="mage-player-ai-draftbot-1.4.15.jar" className="mage.player.ai.ComputerDraftPlayer"/>
+        <playerType name="Computer - draftbot" jar="mage-player-ai-draftbot-1.4.17.jar" className="mage.player.ai.ComputerDraftPlayer"/>
     </playerTypes>
     <gameTypes>
         <gameType name="Two Player Duel" jar="mage-game-twoplayerduel-1.4.15.jar" className="mage.game.TwoPlayerMatch" typeName="mage.game.TwoPlayerDuelType"/>
