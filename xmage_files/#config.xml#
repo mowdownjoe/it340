@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Config.xsd">
@@ -114,28 +115,28 @@
         <deckType name="Constructed - Standard" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Standard"/>
         <deckType name="Constructed - Extended" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Extended"/>
         <deckType name="Constructed - Modern" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Modern"/>
-        <deckType name="Constructed - Eternal" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.Eternal"/>
-        <deckType name="Constructed - Legacy" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.Legacy"/>
-        <deckType name="Constructed - Vintage" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.Vintage"/>
-        <deckType name="Constructed - Pauper" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.Pauper"/>
-        <deckType name="Constructed - Historical Type 2" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.HistoricalType2"/>
-        <deckType name="Constructed - Super Type 2" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.SuperType2"/>
-        <deckType name="Constructed - Freeform" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.Freeform"/>
-        <deckType name="Variant Magic - Commander" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.Commander"/>
-        <deckType name="Variant Magic - Duel Commander" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.DuelCommander"/>
-        <deckType name="Variant Magic - Tiny Leaders" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.TinyLeaders"/>
-        <deckType name="Variant Magic - Momir Basic" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.Momir"/>
+        <deckType name="Constructed - Eternal" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Eternal"/>
+        <deckType name="Constructed - Legacy" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Legacy"/>
+        <deckType name="Constructed - Vintage" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Vintage"/>
+        <deckType name="Constructed - Pauper" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Pauper"/>
+        <deckType name="Constructed - Historical Type 2" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.HistoricalType2"/>
+        <deckType name="Constructed - Super Type 2" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.SuperType2"/>
+        <deckType name="Constructed - Freeform" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Freeform"/>
+        <deckType name="Variant Magic - Commander" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Commander"/>
+        <deckType name="Variant Magic - Duel Commander" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.DuelCommander"/>
+        <deckType name="Variant Magic - Tiny Leaders" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.TinyLeaders"/>
+        <deckType name="Variant Magic - Momir Basic" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.Momir"/>
         <deckType name="Block Constructed - Battle for Zendikar" jar="mage-deck-constructed.jar" className="mage.deck.BattleForZendikarBlock"/>
-        <deckType name="Block Constructed - Innistrad" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.InnistradBlock"/>
-        <deckType name="Block Constructed - Kamigawa" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.KamigawaBlock"/>
-        <deckType name="Block Constructed - Khans of Tarkir" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.KhansOfTarkirBlock"/>
-        <deckType name="Block Constructed - Return to Ravnica" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.ReturnToRavnicaBlock"/>
-        <deckType name="Block Constructed - Scars of Mirrodin" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.ScarsOfMirrodinBlock"/>
-        <deckType name="Block Constructed - Shadowmoor" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.ShadowmoorBlock"/>
-        <deckType name="Block Constructed - Shadows over Innistrad" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.ShadowsOverInnistradBlock"/>
-        <deckType name="Block Constructed - Shards of Alara" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.ShardsOfAlaraBlock"/>
+        <deckType name="Block Constructed - Innistrad" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.InnistradBlock"/>
+        <deckType name="Block Constructed - Kamigawa" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.KamigawaBlock"/>
+        <deckType name="Block Constructed - Khans of Tarkir" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.KhansOfTarkirBlock"/>
+        <deckType name="Block Constructed - Return to Ravnica" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.ReturnToRavnicaBlock"/>
+        <deckType name="Block Constructed - Scars of Mirrodin" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.ScarsOfMirrodinBlock"/>
+        <deckType name="Block Constructed - Shadowmoor" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.ShadowmoorBlock"/>
+        <deckType name="Block Constructed - Shadows over Innistrad" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.ShadowsOverInnistradBlock"/>
+        <deckType name="Block Constructed - Shards of Alara" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.ShardsOfAlaraBlock"/>
         <deckType name="Block Constructed - Theros" jar="mage-deck-constructed.jar" className="mage.deck.TherosBlock"/>
-        <deckType name="Block Constructed - Zendikar" jar="mage-deck-constructed-1.4.17.jar" className="mage.deck.ZendikarBlock"/>
-        <deckType name="Limited" jar="mage-deck-limited-1.4.17.jar" className="mage.deck.Limited"/>
+        <deckType name="Block Constructed - Zendikar" jar="mage-deck-constructed-1.4.15.jar" className="mage.deck.ZendikarBlock"/>
+        <deckType name="Limited" jar="mage-deck-limited-1.4.15.jar" className="mage.deck.Limited"/>
     </deckTypes>
 </config>
