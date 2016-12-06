@@ -14,7 +14,7 @@ fi
 now=$(date +%F)
 then=$(date --date="$2 days ago" +%F)
 
-firstThen=$(grep -n -m 1 $then $1 | cut -f1 -d: )
+firstThen=$(grep -n -m 1 $then $1 | cut -f1 -d: | wc -l)
 lines=$(wc -l $1)
 tailLines= $lines - $firstThen
 
