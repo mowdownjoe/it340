@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 if ![[ $2 =~ '^[0-9]+$']]
 then
