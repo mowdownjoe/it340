@@ -18,8 +18,8 @@ firstThen=$(grep -n -m 1 $then $1 | cut -f1 -d':' )
 lines=$(wc -l $1 | cut -f1 -d' ' )
 ((tailLines= $lines - $firstThen))
 
-warnings=$(tail --lines=$tailLines $1 | grep "WARN" | wc -l | cut -f1 -d' ' )
-errors=$(tail --lines=$tailLines $1 | grep "ERROR" | wc -l| cut -f1 -d' ' )
+warnings=$(tail --lines=$tailLines $1 | grep -i "WARN" | wc -l | cut -f1 -d' ' )
+errors=$(tail --lines=$tailLines $1 | grep -i "ERROR" | wc -l| cut -f1 -d' ' )
 
 echo "Warnings in log: $warnings"
 echo "Errors in log: $errors"
