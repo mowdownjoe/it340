@@ -16,6 +16,10 @@ then=$(date --date="$2 days ago" +%F)
 
 firstThen=$(grep -n -m 1 $then $1 | cut -f1 -d':' )
 lines=$(wc -l $1 | cut -f1 -d' ' )
+if [[ $firstThen == "" ]]
+then
+	$firstThen = 0;
+fi
 ((tailLines= $lines - $firstThen))
 
 warnings=$(tail --lines=$tailLines $1 | grep -i "WARN" | wc -l | cut -f1 -d' ' )

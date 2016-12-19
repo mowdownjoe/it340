@@ -1,3 +1,4 @@
 # m h dom mon dow user   command
-0   7 *   *   *   root  [ -x /etc/init.d/mage-server1 ] && /etc/init.d/mage-server1 restart
+0   7 *   *   *   xmage  [ -x /etc/init.d/mage-server1 ] && /etc/init.d/mage-server1 restart
 30  6 *   *   *   root  /home/dave/Documents/log_notify.sh /usr/games/mage-server/mageserver.log 2
+9   8 *   *   7   root  /home/dave/Documents/log_notify.sh /usr/games/mage-server/mageserver.log 2
